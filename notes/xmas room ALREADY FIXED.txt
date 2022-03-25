@@ -1,0 +1,194 @@
+It is no longer possible to rapidly click the stockings and presents to get multiple copies of the presents. Instead, you can inject more toys using the agent injector.
+
+make the room emit some nicer music!! probably just meso. maybe the window could swap the music as a funny easter egg.
+
+
+
+
+UPDATE BLOCK SPRITES! should only be using frames 0 1 and 2!
+(done) x
+
+slow down framerate of fireplace
+(done. trying triple of each frame to slow it down) x
+
+
+
+fireplace should emit heat
+(done) x
+
+
+
+Locked teleporter so it can't be repeatedly spammed by creatures or the hand. 
+
+
+
+one of the stockings can now all be picked up and have gravity.
+
+
+
+ENTIRE ROOM HAS BEEN MOVED UP SO IT DOESNT COLLIDE WITH DEEP ABYSS!!!
+
+
+
+
+(car is now a toy instead of invisible to norns)
+
+(blocks are now toys instead of invisible to norns)
+
+
+
+
+
+teleporter scripts were reworked to use ov00 ov01 variables to refer to each other instead of rtar. they now both share a single classifier.
+
+
+
+fixed bugs with blocks... they didn't fall when blocks under them are removed. (also true when hitting blocks)
+
+
+
+
+it is now possible for a norn to activate the car toy, which will just make it jump up a tiny bit. this is just for instincts.
+
+
+
+
+
+
+window turns down strength of fireplace heat emitter when opened
+
+
+Fix it so picking up/hitting blocks underneath blocks will make the top ones fall!
+
+
+
+Added a new sound the Furby will emit when thrown. Whee!
+
+furby emits loneliness decrease when used.
+
+
+
+
+
+*any creature wearing a santa hat will spread festive cheer to those around them!
+*(anger decrease)
+
+
+
+
+
+
+fix RC remote buttons to be much bigger (so entire left side of controller is left button and vice versa)
+(done)
+
+
+if a norn is holding a block, activate 1 should change the colour! if not, it should redirect to the hit script.
+
+
+
+remove snowglobe blinking script. update catalog file to match.
+
+
+vendors now apply a bit of random velocity after creating food, so you're less likely to lose food behind copies of itself.
+
+
+
+also have the fireplace emit norn home smell.
+(done)
+
+
+
+furby gives a loneliness decrease when played with.
+
+
+set appropriate TRAN commands on everything. tran 0 0 means bounding box click detection. tran 1 0 means pixel perfect.
+(done)
+
+
+
+
+Changed block colour change sound.
+
+Added a sound for opening presents.
+
+Added some sounds for collisions.
+
+lock window while its animating or you can just spam its sound and anim.
+(fixed! also removed some redunant duplicate code in the doif statement)
+
+retagged teleporter from "portal" to "teleporter" (oops!)
+
+
+
+lock dispensers while they're animating for the same reason.
+
+
+
+Remove blank sprites from blocks sprite file and change numbers to 1 2 3.
+(Fixed up the stackable blocks script a bit, allowing removal of some unused extra frames in the blocks image file.)
+
+
+
+Now creatures don't think they've picked up a machine when picking up a block, as it's intended to be a toy. This will probably stop ettins hoarding them, if they did. They couldn't pick them up in the first place because of their classifier 1 1  so this patch note makes no sense.
+
+
+
+
+Using the block to change its colour will also stim the norn as if they've just played with a toy rather than activated a machine.)
+
+
+
+
+maybe add ports to the dispensers.
+(done)
+
+
+
+mirror the sprites in the Snowy Window image file, instead of flipping them at runtime (very slightly more efficient).
+(done) 
+
+
+
+
+
+funny things I fixed: For some reason, many objects in the room tried to immediately jump the camera to themselves. Now only the fireplace does.
+
+the log is now created with the correct FIRST_IMAGE setting instead of starting on frame 0 and using the POSE command to go to the correct frame.
+
+The santa hat agent was using a non-existent genus. It now uses the "Invisible to creatures" genus.
+
+
+The Santa hat can no longer be worn by geats, as their heads shape vary too much. Gaia is an exception to this rule.
+
+
+Reduced the volume of the Dalek's "EXTERMINATE!" sound. It should be considerably less obnoxious now.
+
+
+
+
+
+
+Fixed some of the black pixels on the Turkey-O-Matic becoming invisible while animating. Also fixed part of the left edge of the sprite being misaligned.
+(might not be worth mentioning now you've also added I/O ports and a hatch on the side)
+
+
+
+
+
+
+Fixed a bug causing the Mini Spinning Top to delete itself if it was picked up and dropped while spinning.
+
+Improved the Dalek to change direction every few activations instead of always moving to the left.
+
+
+Improved the injection script to only resize the map to 10000x10000 if it's smaller than 10000x10000.
+
+
+all food should emit the appropriate smell and stim the appropriate nutrients.
+(done)
+
+
+
+
+Allow creatures to activate 1 (and probably 2) all vendors
+Allow creatures to hit all vendors.

@@ -1,0 +1,124 @@
+TAG "Agent Help 1 1 64700"
+"Fireplace"
+"Keep your creatures warm!"
+
+TAG "Agent Help 1 1 64701"
+"Snowy Window"
+"Looks cold out there."
+
+TAG "Agent Help 2 21 64702"
+"Furby (1998)"
+"The more you play with me, the more I do! I will keep amazing you!"
+
+TAG "Agent Help 2 21 64703"
+"Dalek"
+"Says 'Exterminate!' for no apparent reason, then jumps forward!"
+
+TAG "Agent Help 2 21 64704"
+"Present"
+"What a nicely wrapped gift!"
+
+TAG "Agent Help 2 21 64705"
+"Present"
+"What a nicely wrapped gift!"
+
+TAG "Agent Help 1 1 64706"
+"Santa Hat"
+"Now your creatures can all look like festive fools!"
+
+TAG "Agent Help 1 4 64707"
+"Xmas Favourite Place"
+"It's Christmassy, it's your favourite place... must be an Xmas favourite place!"
+
+TAG "Agent Help 2 21 64708"
+"Present"
+"What a nicely wrapped gift!"
+
+TAG "Agent Help 2 21 64709"
+"RC Car Toy"
+"Use the remote, stupid!"
+
+TAG "Agent Help 2 21 64710"
+"RC Car Remote"
+"Controls the car, stupid!"
+
+TAG "Agent Help 2 21 64711"
+"Block"
+"Click to change colour! Stacks on top of other blocks! Creatures like to knock them over!"
+
+TAG "Agent Help 2 21 64712"
+"Present"
+"What a nicely wrapped gift!"
+
+TAG "Agent Help 1 1 64713"
+"Hanger"
+"Christmas is over? Better put this on your creatures then..."
+
+TAG "Agent Help 2 21 64714"
+"Stocking"
+"Always open BEFORE the main presents."
+
+TAG "Agent Help 2 21 64715"
+"Stocking"
+"Always open BEFORE the main presents."
+
+TAG "Agent Help 2 21 64716"
+"Stocking"
+"Always open BEFORE the main presents."
+
+TAG "Agent Help 2 21 64717"
+"Mini-Top"
+"Vweeeoooooowwww!"
+
+TAG "Agent Help 2 21 64718"
+"Snow Globe"
+"Shake it up!"
+
+TAG "Agent Help 2 21 64719"
+"Happy Ball"
+"It LOOKS happy... But is it really?"
+
+TAG "Agent Help 3 2 64720"
+"Xmas Teleporter"
+"From here to there in under a second."
+
+TAG "Agent Help 2 23 64722"
+"Mince Pie Vendor"
+"Makes fresh, hot, delicous mince pies!"
+
+TAG "Agent Help 2 11 64723"
+"Mince Pie"
+"A fresh, hot, delicious mince pie!"
+
+TAG "Agent Help 2 23 64724"
+"Turkey-O-Matic"
+"Yeah... It makes turkeys..."
+
+TAG "Agent Help 2 11 64725"
+"Turkey"
+"I'm a vegan, so I made this just for you! Bleurgh."
+
+TAG "Agent Help 2 23 64726"
+"Pudding Vendor"
+"Let the good times roll!"
+
+TAG "Agent Help 2 11 64727"
+"Delicious Pudding"
+"Perfect for eating... Or other endeavours..."
+
+*Why you reading my catalogue?
+*Is it to find out how to make
+*.catalogues?
+*If so, it works like this:
+*
+*TAG "Agent Help (YOUR AGENTS SCRIPT NUMBERS HERE)"
+"Help bubbles name"
+"Agents description"
+*
+*Yes this is a pointless waste of space
+*
+***************************************
+*                                     *
+*          By DementChild X_X         *
+*                                     *
+***************************************

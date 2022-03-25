@@ -1,0 +1,120 @@
+
+
+blocks should start with a random colour and random velocity.
+(done. also only spawning 10 blocks instead of 15) (half way done. collision goes glitchy but we can disable it until they're done spewing out)
+
+
+
+
+
+can blocks fly in either direction? the seem to be bunching up to the right of the norn meso making me think norns can only bap them to the right.
+
+
+
+
+
+
+BLOCKS NEED FINISHING:
+
+Fix positions when spawning
+
+
+
+
+try accg 0 for stockings?
+
+
+
+
+
+
+
+make sure hat is fitting correctly on gaia
+
+get xmas hat to fit correctly on ettins and grendels?
+
+stretch goal: get xmas hat to fit correctly on c12ds and c2tods breeds
+
+
+
+rename all 4 letter sprite names to reduce possibility of conflicts!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+also "drp6" need to pack.
+and "bing" need to pack.
+and "frb3"
+
+
+
+
+
+
+allow injecting extra copies of all toys and vendors.
+
+
+
+being around the car when it moves might also reduce boredom in a radius but DO NOT stim that they played with toy.
+
+
+
+if they try and inject another copy of the room it should run a copy of the rscr before it does the stuff.
+(currently it just makes an error sound)
+
+
+
+re-slot gaia body to match new hat slot, whatever that ends up being.
+
+make a master file of all available clothing mods and put the santa hat in an empty slot in that master file. Then fix the script to point whatever the empty slot was.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+read the code of other clothing items to see if priority 1 (maybe it should be 2) makes sense for the santa hat.
+
+
+
+
+
+
+
+BUG: Banshee Bridge snaps camera to the teleporter whether the hand used it or not.
+
+CRAP: Redo CA2DS ports??
+
+DOESNT WORK: Remake blobby core room as a vehicle cabin!
+
+CRAP: Move autosave button to inventory drawer.
+
+

@@ -1,0 +1,126 @@
+****************
+** BOTTOM ROW **
+****************
+
+*YELLOW*
+
+doif va75 = 0
+
+*OffsetX
+setv va06 0
+
+*OffsetY
+setv va07 0
+
+*Initial Colour
+setv ov00 YEL
+
+*RED*
+
+elif va75 = 1
+
+*OffsetX
+setv va06 40
+
+*OffsetY
+setv va07 0
+
+*Initial Colour
+setv ov00 RED
+
+*YELLOW
+
+elif va75 = 2
+
+*OffsetX
+setv va06 77
+
+*OffsetY
+setv va07 0
+
+*Initial Colour
+setv ov00 YEL
+
+****************
+** MIDDLE ROW **
+****************
+
+*BLUE*
+
+doif va75 = 3
+
+*OffsetX
+setv va06 20
+
+*OffsetY
+setv va07 35
+
+*Initial Colour
+setv ov00 YEL
+
+*RED*
+
+elif va75 = 4
+
+*OffsetX
+setv va06 59
+
+*OffsetY
+setv va07 35
+
+*Initial Colour
+setv ov00 RED
+
+********************
+** MIDDLE-TOP ROW **
+********************
+
+*YELLOW*
+
+doif va75 = 5
+
+*OffsetX
+setv va06 20
+
+*OffsetY
+setv va07 35
+
+*Initial Colour
+setv ov00 YEL
+
+*RED*
+
+elif va75 = 4
+
+*OffsetX
+setv va06 59
+
+*OffsetY
+setv va07 35
+
+*Initial Colour
+setv ov00 RED
+
+
+
+
+
+
+0, 40, 77
+0, 0, 0
+YEL, RED, YEL
+
+
+20, 59
+35, 35
+BLU, RED
+
+
+32
+70
+YEL
+
+
+45
+105
+BLU

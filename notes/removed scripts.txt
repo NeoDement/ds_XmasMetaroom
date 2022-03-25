@@ -1,0 +1,58 @@
+*SANTA HAT SCRIPT 256 (UNKNOWN, UNUSED?)
+
+scrp 2 26 64706 256
+
+	inst
+	targ _p1_
+	doif aslp ne 1
+		doif rand 0 1 eq 1
+			snde "ctho"
+		else
+			snde "cth2"
+		endi
+	endi
+	targ ownr
+
+	setv va00 ov00
+	targ _p1_
+
+	snde "clot"
+	*Wear clothing 6 (santa hat) on body part 0 (head), priority 5
+	wear 0 6 1
+endm
+
+
+
+
+from * SANTA HAT INSTALL SCRIPT
+
+*I have no idea what this line does. According to the documentation it should only take one value. All 3 of these aren't even listed valid values.
+clik 4 5 -1
+setv ov00 0
+
+
+
+
+
+
+*hoping these aren't needed and we can just reuse the act1/2 scripts
+
+scrp 2 21 64710 1001
+	lock
+	rtar 1 1 64709
+	lock
+	mira 0
+	sndc "scar"
+	setv vely -5
+	setv velx 50
+endm
+
+scrp 2 21 64710 1002
+	lock
+	rtar 1 1 64709
+	lock
+	mira 1
+	sndc "scar"
+	setv vely -5
+	setv velx -50
+endm
